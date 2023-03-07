@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainContainer {
+  /*I need to desperately learn how to make it fill entire screen w/o w & h*/
+  background-image: url(montyBG3.jpg);
+  height: 915px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 606px; /*need to accomadte border px*/
+  height: 606px;
+  background-color: gray;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid 1px black;
+}
+
+.mole {
+  background-image: url(monty.jpg);
+  background-size: cover;
+  background-repeat: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+
+  color: black;
+  font-weight: 2px;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  color: black;
+  font-weight: 2px;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+p {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-size: 25px;
+  background-color: deepskyblue;
+  margin: 25px;
+  color: black;
+  color: black;
+  font-weight: 2px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  font-family: "Orbitron", sans-serif;
+  margin: 10px;
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: red;
+}
