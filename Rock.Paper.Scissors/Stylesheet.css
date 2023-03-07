@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient( rgb(49, 105, 209), rgb(238, 118, 178));
+  background-repeat: no-repeat;
+  text-align: center;
+  border: 2px solid black;
+}
+.Main-Game {
+  padding: 50px;
+}
+h1 {
+    color: white;
+    font-size: 75px;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 2px 2px black;
+}
+h2 {
+    color: white;
+}
+#computer-choice {
+ color: white;
+}
+#user-choice {
+    color: white;
+}
+#result {
+    color: white;
+}
+button {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}

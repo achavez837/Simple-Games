@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(177, 108, 131);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 50px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.emoji {
+  font-size: 10rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.closed {
+  display: none;
+}
+
+.open {
+  display: none;
+}
+
+.active {
+  display: block;
+}

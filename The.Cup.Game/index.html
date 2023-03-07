@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cup Game</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.4/underscore-umd-min.js"></script>
+  </head>
+  <body>
+    <h1>Can You Guess where the ball is?</h1>
+    <br />
+    <p>Refresh your screen to try again</p>
+    <div class="ball"></div>
+    <div class="trapezium cup"></div>
+    <div class="trapezium cup"></div>
+    <div class="trapezium cup"></div>
+
+    <script>
+      var randomOffset = _.sample(["70px", "280px", "500px"]);
+      $("div.ball").css("left", randomOffset);
+    </script>
+  </body>
+</html>

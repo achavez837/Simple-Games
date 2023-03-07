@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-color: deepskyblue;
+  height: 865px;
+  width: auto;
+  padding: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  color: navy;
+}
+
+#buttons {
+  width: auto;
+  margin: auto 30px auto 30px;
+  align-content: center;
+}
+
+/* would love to animate so on hover buttons enlarge*/
+
+#Rock {
+  background-image: url(rock.png);
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  width: 150px;
+  height: 100px;
+  border: deepskyblue;
+}
+
+#Paper {
+  background-image: url(paper.png);
+  background-size: cover;
+  background-color: transparent;
+  width: 150px;
+  height: 150px;
+  border: transparent;
+}
+
+#Scissors {
+  background-image: url(scissors.png);
+  background-size: cover;
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  border: transparent;
+}

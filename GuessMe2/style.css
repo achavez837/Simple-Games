@@ -1,0 +1,49 @@
+body {
+  background-color: cornflowerblue;
+}
+
+#container {
+  background-color: midnightblue;
+  border: 5px solid blue;
+  border-radius: 20px;
+  height: 275px;
+  width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+  font-family: "Poiret One", cursive;
+}
+
+#input {
+  width: 100px;
+  height: 30px;
+  margin: 25px auto;
+}
+
+#enterBtn {
+  margin: 25px auto auto 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: white;
+  background-color: lightsteelblue;
+}
+
+#enterBtn:hover {
+  background-color: dimgrey;
+}
+
+#againBtn {
+  margin: 25px auto auto 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: lightsteelblue;
+  border-color: white;
+}
+
+#againBtn:hover {
+  background-color: dimgrey;
+}

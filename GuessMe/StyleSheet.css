@@ -1,0 +1,13 @@
+.body {
+  background-color: lavender;
+}
+#container {
+  border: 2px solid purple;
+  border-radius: 5px;
+  background-color: mediumvioletred;
+  padding: 50px;
+}
+p {
+  text-align: center;
+  color: aliceblue;
+}
